@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery - Helping Hands NGO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+<h2>Helping Hands NGO</h2>
+<div class="menu">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="causes.html">Causes</a>
+<a href="volunteer.html">Volunteer</a>
+<a href="donate.html">Donate</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+
+<div class="content">
+<h1>Gallery</h1>
+<p>Click on a photo to see it bigger.</p>
+<div class="row">
+<div class="photo" style="background:blue" onclick="openPhoto('Study Class','blue')">Study Class</div>
+<div class="photo" style="background:orange" onclick="openPhoto('Food Distribution','orange')">Food Distribution</div>
+<div class="photo" style="background:green" onclick="openPhoto('Health Camp','green')">Health Camp</div>
+<div class="photo" style="background:purple" onclick="openPhoto('School Kits','purple')">School Kits</div>
+<div class="photo" style="background:teal" onclick="openPhoto('Water Filter','teal')">Water Filter</div>
+<div class="photo" style="background:crimson" onclick="openPhoto('Annual Day','crimson')">Annual Day</div>
+</div>
+
+<div id="lightbox" onclick="closePhoto()">
+<div id="bigphoto"></div>
+<p>Click anywhere to close</p>
+</div>
+</div>
+
+<div class="footer">
+<p>Helping Hands NGO, Ghaziabad, Uttar Pradesh | Email: helpinghands@gmail.com | Phone: 9876543210</p>
+<p>&copy; 2026 Helping Hands NGO</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
